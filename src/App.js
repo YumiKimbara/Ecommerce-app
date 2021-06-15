@@ -42,7 +42,7 @@ function App() {
           <Navbar bag={bag} search={search} setSearch={setSearch} />
           <Switch>
             <Route
-              path="/"
+              path="Ecommerce-app/"
               exact
               render={(props) => (
                 <Home
