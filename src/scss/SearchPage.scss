@@ -1,0 +1,36 @@
+.searchContainer {
+  position: fixed;
+  top: 0;
+  z-index: 1029;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 0;
+  overflow: auto;
+
+  input {
+    font-size: 1.3rem;
+    border: none;
+  }
+}
+
+.search {
+  margin: 5%;
+  width: 90%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+.closeBtn {
+  color: gray;
+  cursor: pointer;
+}
+
+.searchBtn {
+  cursor: pointer;
+}

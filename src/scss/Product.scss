@@ -1,0 +1,132 @@
+.productBanner {
+  max-width: none !important;
+  width: 100%;
+  height: 150px;
+  margin: 0;
+
+  h2 {
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 35%;
+  }
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+
+.filter {
+  cursor: pointer;
+}
+
+.sizeButton {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.fillterContainer {
+  display: flex;
+  justify-content: left;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.checkbox {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  position: relative;
+  width: auto;
+}
+.checkbox::before {
+  border: 1px solid black;
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 5px;
+  margin-top: -12px;
+  position: absolute;
+  top: 50%;
+}
+
+@mixin checkboxFunc {
+  content: "";
+  display: block;
+  height: 1rem;
+  left: 0.8rem;
+  margin-top: -0.6rem;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 0.5rem;
+}
+
+.checkboxRed::after {
+  border-right: 3px solid #ff477e;
+  border-bottom: 3px solid #ff477e;
+  @include checkboxFunc;
+}
+
+.checkboxBlue::after {
+  border-right: 3px solid #00b4d8;
+  border-bottom: 3px solid #00b4d8;
+  @include checkboxFunc;
+}
+
+.checkboxYellow::after {
+  border-right: 3px solid #ffdd00;
+  border-bottom: 3px solid #ffdd00;
+  @include checkboxFunc;
+}
+
+.checkboxBlack::after {
+  border-right: 3px solid #264653;
+  border-bottom: 3px solid #264653;
+  @include checkboxFunc;
+}
+
+.checkboxWhite::after {
+  border-right: 3px solid #ced4da;
+  border-bottom: 3px solid #ced4da;
+  @include checkboxFunc;
+}
+
+.checkboxGreen::after {
+  border-right: 3px solid #52b788;
+  border-bottom: 3px solid #52b788;
+  @include checkboxFunc;
+}
+
+.checkboxPurple::after {
+  border-right: 3px solid #c77dff;
+  border-bottom: 3px solid #c77dff;
+  @include checkboxFunc;
+}
+
+input[type="checkbox"]:checked + .checkbox::after {
+  opacity: 1;
+}
+
+.filterContianer {
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+
+.sortByContainer {
+  padding: 0.5rem;
+}

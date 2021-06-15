@@ -1,0 +1,21 @@
+.carousel {
+    display: flex;
+    .carousel-indicators{
+        position: relative;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin: 0 10px 10px 0;
+        width: 100px;
+        a{
+            width: 100%;
+            height: 60px;
+            border: 0;
+            margin-bottom: 10px;
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
