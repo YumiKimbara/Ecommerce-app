@@ -21,7 +21,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://yumi0127.github.io/Ecommerce-app/",
+  "homepage": "https://yumi0127.github.io/",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
