@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-app/static/css/main.8ca87909.chunk.css",
+    "main.js": "/Ecommerce-app/static/js/main.57415265.chunk.js",
+    "main.js.map": "/Ecommerce-app/static/js/main.57415265.chunk.js.map",
+    "runtime-main.js": "/Ecommerce-app/static/js/runtime-main.f49a5139.js",
+    "runtime-main.js.map": "/Ecommerce-app/static/js/runtime-main.f49a5139.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Ecommerce-app/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.f361b540.chunk.js": "/Ecommerce-app/static/js/2.f361b540.chunk.js",
+    "static/js/2.f361b540.chunk.js.map": "/Ecommerce-app/static/js/2.f361b540.chunk.js.map",
+    "index.html": "/Ecommerce-app/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/Ecommerce-app/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.8ca87909.chunk.css.map": "/Ecommerce-app/static/css/main.8ca87909.chunk.css.map",
+    "static/js/2.f361b540.chunk.js.LICENSE.txt": "/Ecommerce-app/static/js/2.f361b540.chunk.js.LICENSE.txt",
+    "static/media/banner.02ceec75.png": "/Ecommerce-app/static/media/banner.02ceec75.png",
+    "static/media/men.b428feed.jpg": "/Ecommerce-app/static/media/men.b428feed.jpg",
+    "static/media/onsideimage.092ced25.jpg": "/Ecommerce-app/static/media/onsideimage.092ced25.jpg",
+    "static/media/women.f7ace6f6.jpg": "/Ecommerce-app/static/media/women.f7ace6f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f49a5139.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.f361b540.chunk.js",
+    "static/css/main.8ca87909.chunk.css",
+    "static/js/main.57415265.chunk.js"
+  ]
+}
